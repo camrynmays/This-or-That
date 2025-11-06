@@ -53,6 +53,7 @@ Known Issues:
 		var resultsText = document.getElementById("resultsLocation"); // creates a java script link between the variable called "resultsText" and the page element with id of resultsLocation
 		resultsLocation.innerHTML = "You are a morning bird = " + percent_city + "% <br> You are a night owl = " + percent_country + "%" //This line replaces the text from the Results Page with the diagnosis
 	}
+	
 
   </script>
 
@@ -78,6 +79,17 @@ Known Issues:
     left: 0vw;
     z-index: 1;
 }
+
+.w3-container h1 {
+    font-family: 'Times New Roman', serif;
+    }
+
+.w3-container p {
+    font-family: 'Times New Roman', serif;
+    }
+.w3-container a {
+    font-family: 'Times New Roman', serif;
+    }
 </style>
 
 <body>
@@ -116,7 +128,7 @@ Known Issues:
 	
 	<div id="content" class="w3-container"> <!--creating the question and buttons for Q2-->
 		<p>Do you get sleepy early?</p> <!--I asked the question for Q2 here.--> 
-		<a href="#three" onclick="cityAdd();" class="w3-btn w3-grey w3-round"> Yes </a> <!-- Create Yes button for Q2. If clicked, adds one to city_count-->
+		<a href="#three" onclick="cityAdd();" class="w3-btn w3-grey w3-round "> Yes </a> <!-- Create Yes button for Q2. If clicked, adds one to city_count-->
 		<a href="#three" onclick="countryAdd();" class="w3-btn w3-grey w3-round"> No </a> <!-- Create No button for Q2. If clicked, adds one to country_count-->
 	</div>
 </div>	
